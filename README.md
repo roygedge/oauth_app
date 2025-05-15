@@ -15,15 +15,6 @@ A FastAPI-based backend service that integrates with QuickBooks for account mana
 - Python 3.8 or higher (for local development)
 - QuickBooks Developer account and credentials
 
-## Environment Variables
-
-The following environment variables are required:
- 
-- `DATABASE_URL`: PostgreSQL connection string
-- `CLIENT_ID`: QuickBooks client ID
-- `CLIENT_SECRET`: QuickBooks client secret
-- `REDIRECT_URI`: OAuth callback URL
-
 ## Running the Application
 
 ### Using Docker (Recommended)
